@@ -1,0 +1,49 @@
+h1 {
+  text-align: center;
+  font-size: 70px;
+  font-weight: 700;
+  color: #3066be;
+}
+
+.recipe-list {
+  list-style-type: none;
+  text-align: center;
+  font-size: 25px;
+}
+
+img {
+  height: auto;
+  width: 500px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+* {
+    background-color: #44bba4;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    line-height: 1.2;
+  }
+
+.description {
+  color: #3066be;
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+h3 {
+    color: #F06543;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+li {
+    color: #3066be;;
+    font-weight: bold;
+    font-size: 20px;
+    margin: 5px 0;
+}
+.steps {
+    margin: 20px 0;
+}
