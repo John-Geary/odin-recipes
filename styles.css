@@ -4,26 +4,37 @@ h1 {
   font-weight: 700;
   color: #3066be;
 }
+.title {
+  padding-bottom: 40px;
+}
 
 .recipe-list {
   list-style-type: none;
   text-align: center;
   font-size: 25px;
+  border: 5px solid #7e2e84;
+  margin-left: 200px;
+  margin-right: 200px;
+  padding-left: 0;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background-color: #44bba4;
 }
 
 img {
   height: auto;
-  width: 500px;
+  width: 300px;
   display: block;
   margin-left: auto;
   margin-right: auto;
 }
 
 * {
-    background-color: #44bba4;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    line-height: 1.2;
-  }
+  box-sizing: border-box;
+  background-color: #80ced7;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  line-height: 1.2;
+}
 
 .description {
   color: #3066be;
@@ -33,17 +44,40 @@ img {
 }
 
 h3 {
-    color: #F06543;
-    font-size: 30px;
-    font-weight: bold;
+  color: #f06543;
+  font-size: 30px;
+  font-weight: bold;
 }
 
 li {
-    color: #3066be;;
-    font-weight: bold;
-    font-size: 20px;
-    margin: 5px 0;
+  color: #3066be;
+  font-weight: bold;
+  font-size: 20px;
+  margin: 5px 0;
 }
 .steps {
-    margin: 20px 0;
+  margin: 20px 0;
+}
+
+.list {
+  display: block;
+  margin-left: 250px;
+  margin-right: 250px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  border: 2px solid #7e2e84;
+}
+
+a {
+  color: #f06543;
+}
+
+a:link {
+  text-decoration: none;
+  font-size: 25px;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #7e2e84;
 }
