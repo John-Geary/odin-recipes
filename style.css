@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background: #243E35;
+}
+
+.card {
+  width: 800px;
+  margin: 500px;
+  margin-top: 100px;
+}
+
+.title {
+  color: #E0EEC6;
+  text-align: center;
+  font-size: 50px;
+  background: #7CA982;
+  margin-bottom: 50px;
+}
+
+.content {
+  padding-left: 40px;
+  padding-top: 30px;
+  padding-right: 687px;
+  padding-bottom: 40px;
+  font-size: 25px;
+  background: #7CA982;
+}
+
+a:link {
+  color: #E0EEC6;
+  background: #7CA982;
+}
+
+a:visited {
+  color: #F1F7ED;
+  background: #7CA982;
+}
